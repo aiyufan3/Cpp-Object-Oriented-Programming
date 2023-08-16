@@ -1,0 +1,211 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/aiyufan/CLionProjects/step4 -B /Users/aiyufan/CLionProjects/step4/cmake-build-debug
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake:303 (message):
+  Ignoring CMAKE_OSX_SYSROOT value:
+
+   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
+
+  because the directory does not exist.
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake:21 (include)
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/aiyufan/CLionProjects/step4/cmake-build-debug
+
+Cannot get compiler information:
+	Compiler exited with error code 1: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -xc++ -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__ -I/Users/aiyufan/CLionProjects/step4/AquariumLib -isystem/usr/local/lib/wx/include/osx_cocoa-unicode-3.2 -isystem/usr/local/include/wx-3.2 -g -arch arm64 -fcolor-diagnostics -std=gnu++17 -Winvalid-pch -Xarch_arm64 -include/Users/aiyufan/CLionProjects/step4/cmake-build-debug/CMakeFiles/Aquarium.dir/cmake_pch_arm64.hxx -fpch-preprocess -v -dD -E
+	Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+	Target: arm64-apple-darwin22.3.0
+	Thread model: posix
+	InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+	ignoring nonexistent directory "/usr/include/c++/v1"
+	 "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -E -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name compiler-file6215271107368058286 -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/aiyufan/CLionProjects/step4/cmake-build-debug -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-3.2 -isystem /usr/local/include/wx-3.2 -include /Users/aiyufan/CLionProjects/step4/cmake-build-debug/CMakeFiles/Aquarium.dir/cmake_pch_arm64.hxx -D WXUSINGDLL -D _FILE_OFFSET_BITS=64 -D __WXMAC__ -D __WXOSX_COCOA__ -D __WXOSX__ -I /Users/aiyufan/CLionProjects/step4/AquariumLib -D ___CIDR_DEFINITIONS_END -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -internal-isystem /usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Winvalid-pch -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -std=gnu++17 -fdeprecated-macro -fdebug-compilation-dir=/Users/aiyufan/CLionProjects/step4/cmake-build-debug -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -dD -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o - -x c++ /private/var/folders/z9/y0p9062x36gfrgkp00tc6hvm0000gn/T/compiler-file6215271107368058286
+	clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.3.0
+	ignoring nonexistent directory "/usr/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 /Users/aiyufan/CLionProjects/step4/AquariumLib
+	 /usr/local/lib/wx/include/osx_cocoa-unicode-3.2
+	 /usr/local/include/wx-3.2
+	 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1
+	 /usr/local/include
+	 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include
+	 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+	 /System/Library/Frameworks (framework directory)
+	 /Library/Frameworks (framework directory)
+	End of search list.
+	In file included from <built-in>:1:
+	In file included from /Users/aiyufan/CLionProjects/step4/cmake-build-debug/CMakeFiles/Aquarium.dir/cmake_pch_arm64.hxx:5:
+	In file included from /Users/aiyufan/CLionProjects/step4/pch.h:8:
+	In file included from /usr/local/include/wx-3.2/wx/wxprec.h:12:
+	In file included from /usr/local/include/wx-3.2/wx/defs.h:45:
+	[1m/usr/local/include/wx-3.2/wx/platform.h:417:13: [0m[0;1;31mfatal error: [0m[1m'TargetConditionals.h' file not found[0m
+	#   include <TargetConditionals.h>
+	[0;1;32m            ^~~~~~~~~~~~~~~~~~~~~~
+	[0m1 error generated.
+	
+	
+	Compiler exited with error code 1: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -xc++ -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__ -I/Users/aiyufan/CLionProjects/step4/AquariumLib -isystem/usr/local/lib/wx/include/osx_cocoa-unicode-3.2 -isystem/usr/local/include/wx-3.2 -g -arch arm64 -fcolor-diagnostics -std=gnu++17 -Winvalid-pch -Xclang -include -Xclang /Users/aiyufan/CLionProjects/step4/cmake-build-debug/CMakeFiles/Aquarium.dir/cmake_pch_arm64.hxx -x c++-header -fpch-preprocess -v -dD -E
+	Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+	Target: arm64-apple-darwin22.3.0
+	Thread model: posix
+	InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+	ignoring nonexistent directory "/usr/include/c++/v1"
+	 "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -E -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name compiler-file6215271107368058286 -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/aiyufan/CLionProjects/step4/cmake-build-debug -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-3.2 -isystem /usr/local/include/wx-3.2 -D WXUSINGDLL -D _FILE_OFFSET_BITS=64 -D __WXMAC__ -D __WXOSX_COCOA__ -D __WXOSX__ -I /Users/aiyufan/CLionProjects/step4/AquariumLib -D ___CIDR_DEFINITIONS_END -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -internal-isystem /usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Winvalid-pch -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -std=gnu++17 -fdeprecated-macro -fdebug-compilation-dir=/Users/aiyufan/CLionProjects/step4/cmake-build-debug -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -dD -include /Users/aiyufan/CLionProjects/step4/cmake-build-debug/CMakeFiles/Aquarium.dir/cmake_pch_arm64.hxx -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o - -x c++-header /private/var/folders/z9/y0p9062x36gfrgkp00tc6hvm0000gn/T/compiler-file6215271107368058286
+	clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.3.0
+	ignoring nonexistent directory "/usr/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 /Users/aiyufan/CLionProjects/step4/AquariumLib
+	 /usr/local/lib/wx/include/osx_cocoa-unicode-3.2
+	 /usr/local/include/wx-3.2
+	 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1
+	 /usr/local/include
+	 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include
+	 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+	 /System/Library/Frameworks (framework directory)
+	 /Library/Frameworks (framework directory)
+	End of search list.
+	In file included from <built-in>:1:
+	In file included from /Users/aiyufan/CLionProjects/step4/cmake-build-debug/CMakeFiles/Aquarium.dir/cmake_pch_arm64.hxx:5:
+	In file included from /Users/aiyufan/CLionProjects/step4/pch.h:8:
+	In file included from /usr/local/include/wx-3.2/wx/wxprec.h:12:
+	In file included from /usr/local/include/wx-3.2/wx/defs.h:45:
+	[1m/usr/local/include/wx-3.2/wx/platform.h:417:13: [0m[0;1;31mfatal error: [0m[1m'TargetConditionals.h' file not found[0m
+	#   include <TargetConditionals.h>
+	[0;1;32m            ^~~~~~~~~~~~~~~~~~~~~~
+	[0m1 error generated.
+	
+	
+	Compiler exited with error code 1: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -xc++ -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__ -isystem/usr/local/lib/wx/include/osx_cocoa-unicode-3.2 -isystem/usr/local/include/wx-3.2 -g -arch arm64 -fcolor-diagnostics -std=gnu++17 -Winvalid-pch -Xarch_arm64 -include/Users/aiyufan/CLionProjects/step4/cmake-build-debug/AquariumLib/CMakeFiles/AquariumLib.dir/cmake_pch_arm64.hxx -fpch-preprocess -v -dD -E
+	Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+	Target: arm64-apple-darwin22.3.0
+	Thread model: posix
+	InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+	ignoring nonexistent directory "/usr/include/c++/v1"
+	 "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -E -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name compiler-file6215271107368058286 -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/aiyufan/CLionProjects/step4/cmake-build-debug/AquariumLib -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-3.2 -isystem /usr/local/include/wx-3.2 -include /Users/aiyufan/CLionProjects/step4/cmake-build-debug/AquariumLib/CMakeFiles/AquariumLib.dir/cmake_pch_arm64.hxx -D WXUSINGDLL -D _FILE_OFFSET_BITS=64 -D __WXMAC__ -D __WXOSX_COCOA__ -D __WXOSX__ -D ___CIDR_DEFINITIONS_END -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -internal-isystem /usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Winvalid-pch -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -std=gnu++17 -fdeprecated-macro -fdebug-compilation-dir=/Users/aiyufan/CLionProjects/step4/cmake-build-debug/AquariumLib -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -dD -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o - -x c++ /private/var/folders/z9/y0p9062x36gfrgkp00tc6hvm0000gn/T/compiler-file6215271107368058286
+	clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.3.0
+	ignoring nonexistent directory "/usr/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 /usr/local/lib/wx/include/osx_cocoa-unicode-3.2
+	 /usr/local/include/wx-3.2
+	 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1
+	 /usr/local/include
+	 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include
+	 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+	 /System/Library/Frameworks (framework directory)
+	 /Library/Frameworks (framework directory)
+	End of search list.
+	In file included from <built-in>:1:
+	In file included from /Users/aiyufan/CLionProjects/step4/cmake-build-debug/AquariumLib/CMakeFiles/AquariumLib.dir/cmake_pch_arm64.hxx:5:
+	In file included from /Users/aiyufan/CLionProjects/step4/AquariumLib/pch.h:9:
+	In file included from /usr/local/include/wx-3.2/wx/wxprec.h:12:
+	In file included from /usr/local/include/wx-3.2/wx/defs.h:45:
+	[1m/usr/local/include/wx-3.2/wx/platform.h:417:13: [0m[0;1;31mfatal error: [0m[1m'TargetConditionals.h' file not found[0m
+	#   include <TargetConditionals.h>
+	[0;1;32m            ^~~~~~~~~~~~~~~~~~~~~~
+	[0m1 error generated.
+	
+	
+	Compiler exited with error code 1: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -xc++ -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__ -isystem/usr/local/lib/wx/include/osx_cocoa-unicode-3.2 -isystem/usr/local/include/wx-3.2 -g -arch arm64 -fcolor-diagnostics -std=gnu++17 -Winvalid-pch -Xclang -include -Xclang /Users/aiyufan/CLionProjects/step4/cmake-build-debug/AquariumLib/CMakeFiles/AquariumLib.dir/cmake_pch_arm64.hxx -x c++-header -fpch-preprocess -v -dD -E
+	Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+	Target: arm64-apple-darwin22.3.0
+	Thread model: posix
+	InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+	ignoring nonexistent directory "/usr/include/c++/v1"
+	 "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -E -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name compiler-file6215271107368058286 -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/aiyufan/CLionProjects/step4/cmake-build-debug/AquariumLib -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-3.2 -isystem /usr/local/include/wx-3.2 -D WXUSINGDLL -D _FILE_OFFSET_BITS=64 -D __WXMAC__ -D __WXOSX_COCOA__ -D __WXOSX__ -D ___CIDR_DEFINITIONS_END -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -internal-isystem /usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Winvalid-pch -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -std=gnu++17 -fdeprecated-macro -fdebug-compilation-dir=/Users/aiyufan/CLionProjects/step4/cmake-build-debug/AquariumLib -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -dD -include /Users/aiyufan/CLionProjects/step4/cmake-build-debug/AquariumLib/CMakeFiles/AquariumLib.dir/cmake_pch_arm64.hxx -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o - -x c++-header /private/var/folders/z9/y0p9062x36gfrgkp00tc6hvm0000gn/T/compiler-file6215271107368058286
+	clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.3.0
+	ignoring nonexistent directory "/usr/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 /usr/local/lib/wx/include/osx_cocoa-unicode-3.2
+	 /usr/local/include/wx-3.2
+	 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1
+	 /usr/local/include
+	 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include
+	 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+	 /System/Library/Frameworks (framework directory)
+	 /Library/Frameworks (framework directory)
+	End of search list.
+	In file included from <built-in>:1:
+	In file included from /Users/aiyufan/CLionProjects/step4/cmake-build-debug/AquariumLib/CMakeFiles/AquariumLib.dir/cmake_pch_arm64.hxx:5:
+	In file included from /Users/aiyufan/CLionProjects/step4/AquariumLib/pch.h:9:
+	In file included from /usr/local/include/wx-3.2/wx/wxprec.h:12:
+	In file included from /usr/local/include/wx-3.2/wx/defs.h:45:
+	[1m/usr/local/include/wx-3.2/wx/platform.h:417:13: [0m[0;1;31mfatal error: [0m[1m'TargetConditionals.h' file not found[0m
+	#   include <TargetConditionals.h>
+	[0;1;32m            ^~~~~~~~~~~~~~~~~~~~~~
+	[0m1 error generated.
+	
+	
+	Compiler exited with error code 1: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -xc++ -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__ -I/Users/aiyufan/CLionProjects/step4/AquariumLib -isystem/usr/local/lib/wx/include/osx_cocoa-unicode-3.2 -isystem/usr/local/include/wx-3.2 -isystem/Users/aiyufan/CLionProjects/step4/cmake-build-debug/_deps/googletest-src/googletest/include -isystem/Users/aiyufan/CLionProjects/step4/cmake-build-debug/_deps/googletest-src/googletest -g -arch arm64 -fcolor-diagnostics -std=gnu++17 -Winvalid-pch -Xarch_arm64 -include/Users/aiyufan/CLionProjects/step4/cmake-build-debug/Tests/CMakeFiles/Tests_run.dir/cmake_pch_arm64.hxx -fpch-preprocess -v -dD -E
+	Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+	Target: arm64-apple-darwin22.3.0
+	Thread model: posix
+	InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+	ignoring nonexistent directory "/usr/include/c++/v1"
+	 "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -E -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name compiler-file6215271107368058286 -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/aiyufan/CLionProjects/step4/cmake-build-debug/Tests -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-3.2 -isystem /usr/local/include/wx-3.2 -isystem /Users/aiyufan/CLionProjects/step4/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/aiyufan/CLionProjects/step4/cmake-build-debug/_deps/googletest-src/googletest -include /Users/aiyufan/CLionProjects/step4/cmake-build-debug/Tests/CMakeFiles/Tests_run.dir/cmake_pch_arm64.hxx -D WXUSINGDLL -D _FILE_OFFSET_BITS=64 -D __WXMAC__ -D __WXOSX_COCOA__ -D __WXOSX__ -I /Users/aiyufan/CLionProjects/step4/AquariumLib -D ___CIDR_DEFINITIONS_END -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -internal-isystem /usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Winvalid-pch -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -std=gnu++17 -fdeprecated-macro -fdebug-compilation-dir=/Users/aiyufan/CLionProjects/step4/cmake-build-debug/Tests -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -dD -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o - -x c++ /private/var/folders/z9/y0p9062x36gfrgkp00tc6hvm0000gn/T/compiler-file6215271107368058286
+	clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.3.0
+	ignoring nonexistent directory "/usr/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 /Users/aiyufan/CLionProjects/step4/AquariumLib
+	 /usr/local/lib/wx/include/osx_cocoa-unicode-3.2
+	 /usr/local/include/wx-3.2
+	 /Users/aiyufan/CLionProjects/step4/cmake-build-debug/_deps/googletest-src/googletest/include
+	 /Users/aiyufan/CLionProjects/step4/cmake-build-debug/_deps/googletest-src/googletest
+	 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1
+	 /usr/local/include
+	 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include
+	 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+	 /System/Library/Frameworks (framework directory)
+	 /Library/Frameworks (framework directory)
+	End of search list.
+	In file included from <built-in>:1:
+	In file included from /Users/aiyufan/CLionProjects/step4/cmake-build-debug/Tests/CMakeFiles/Tests_run.dir/cmake_pch_arm64.hxx:5:
+	In file included from /Users/aiyufan/CLionProjects/step4/Tests/../AquariumLib/pch.h:9:
+	In file included from /usr/local/include/wx-3.2/wx/wxprec.h:12:
+	In file included from /usr/local/include/wx-3.2/wx/defs.h:45:
+	[1m/usr/local/include/wx-3.2/wx/platform.h:417:13: [0m[0;1;31mfatal error: [0m[1m'TargetConditionals.h' file not found[0m
+	#   include <TargetConditionals.h>
+	[0;1;32m            ^~~~~~~~~~~~~~~~~~~~~~
+	[0m1 error generated.
+	
+	
+	Compiler exited with error code 1: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -xc++ -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__ -I/Users/aiyufan/CLionProjects/step4/AquariumLib -isystem/usr/local/lib/wx/include/osx_cocoa-unicode-3.2 -isystem/usr/local/include/wx-3.2 -isystem/Users/aiyufan/CLionProjects/step4/cmake-build-debug/_deps/googletest-src/googletest/include -isystem/Users/aiyufan/CLionProjects/step4/cmake-build-debug/_deps/googletest-src/googletest -g -arch arm64 -fcolor-diagnostics -std=gnu++17 -Winvalid-pch -Xclang -include -Xclang /Users/aiyufan/CLionProjects/step4/cmake-build-debug/Tests/CMakeFiles/Tests_run.dir/cmake_pch_arm64.hxx -x c++-header -fpch-preprocess -v -dD -E
+	Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+	Target: arm64-apple-darwin22.3.0
+	Thread model: posix
+	InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+	ignoring nonexistent directory "/usr/include/c++/v1"
+	 "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -E -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name compiler-file6215271107368058286 -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/aiyufan/CLionProjects/step4/cmake-build-debug/Tests -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-3.2 -isystem /usr/local/include/wx-3.2 -isystem /Users/aiyufan/CLionProjects/step4/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/aiyufan/CLionProjects/step4/cmake-build-debug/_deps/googletest-src/googletest -D WXUSINGDLL -D _FILE_OFFSET_BITS=64 -D __WXMAC__ -D __WXOSX_COCOA__ -D __WXOSX__ -I /Users/aiyufan/CLionProjects/step4/AquariumLib -D ___CIDR_DEFINITIONS_END -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -internal-isystem /usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Winvalid-pch -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -std=gnu++17 -fdeprecated-macro -fdebug-compilation-dir=/Users/aiyufan/CLionProjects/step4/cmake-build-debug/Tests -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -dD -include /Users/aiyufan/CLionProjects/step4/cmake-build-debug/Tests/CMakeFiles/Tests_run.dir/cmake_pch_arm64.hxx -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o - -x c++-header /private/var/folders/z9/y0p9062x36gfrgkp00tc6hvm0000gn/T/compiler-file6215271107368058286
+	clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.3.0
+	ignoring nonexistent directory "/usr/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 /Users/aiyufan/CLionProjects/step4/AquariumLib
+	 /usr/local/lib/wx/include/osx_cocoa-unicode-3.2
+	 /usr/local/include/wx-3.2
+	 /Users/aiyufan/CLionProjects/step4/cmake-build-debug/_deps/googletest-src/googletest/include
+	 /Users/aiyufan/CLionProjects/step4/cmake-build-debug/_deps/googletest-src/googletest
+	 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1
+	 /usr/local/include
+	 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include
+	 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+	 /System/Library/Frameworks (framework directory)
+	 /Library/Frameworks (framework directory)
+	End of search list.
+	In file included from <built-in>:1:
+	In file included from /Users/aiyufan/CLionProjects/step4/cmake-build-debug/Tests/CMakeFiles/Tests_run.dir/cmake_pch_arm64.hxx:5:
+	In file included from /Users/aiyufan/CLionProjects/step4/Tests/../AquariumLib/pch.h:9:
+	In file included from /usr/local/include/wx-3.2/wx/wxprec.h:12:
+	In file included from /usr/local/include/wx-3.2/wx/defs.h:45:
+	[1m/usr/local/include/wx-3.2/wx/platform.h:417:13: [0m[0;1;31mfatal error: [0m[1m'TargetConditionals.h' file not found[0m
+	#   include <TargetConditionals.h>
+	[0;1;32m            ^~~~~~~~~~~~~~~~~~~~~~
+	[0m1 error generated.
+	
+	

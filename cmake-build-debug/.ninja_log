@@ -1,0 +1,27 @@
+# ninja log v5
+7	1482	1676227276387374583	CMakeFiles/Aquarium.dir/cmake_pch_arm64.hxx.pch	35bb3f3acc90e553
+1482	1843	1676227276753656519	CMakeFiles/Aquarium.dir/AquariumApp.cpp.o	3ff3bf321e9394de
+1482	1841	1676227276751535200	CMakeFiles/Aquarium.dir/main.cpp.o	4f5446284785d146
+20	517	1679026836065837028	AquariumLib/CMakeFiles/AquariumLib.dir/Item.cpp.o	8d2060cf84b856f6
+1499	2051	1676227276961132549	AquariumLib/CMakeFiles/AquariumLib.dir/AquariumView.cpp.o	611942132d47792e
+517	569	1679026836122010000	AquariumLib/libAquariumLib.a	af9530be5def3f76
+569	729	1679026836280088085	Aquarium.app/Contents/MacOS/Aquarium	c63551834e9e4c0e
+1843	2121	1676227277031020318	AquariumLib/CMakeFiles/AquariumLib.dir/Nemo.cpp.o	ef9fff06abfe8cba
+1841	2124	1676227277034481627	AquariumLib/CMakeFiles/AquariumLib.dir/FishBeta.cpp.o	2bb4418ac9922d1b
+1724	1925	1676081770701538641	Tests/Tests_run	70f9b1c57d88ddfd
+1497	1993	1676227276898670355	AquariumLib/CMakeFiles/AquariumLib.dir/MainFrame.cpp.o	9194a7f6885e277d
+1218	1721	1676075287599864944	Tests/CMakeFiles/Tests_run.dir/gtest_main.cpp.o	c03b58cdf246384d
+1517	1709	1675972478702137543	AquariumLib/CMakeFiles/AquariumLib.dir/Gus.cpp.o	3d2643c10dce0695
+1501	2035	1676227276937333922	AquariumLib/CMakeFiles/AquariumLib.dir/Aquarium.cpp.o	124d2d654ccf4283
+1199	1232	1675974153827833000	lib/libgtestd.a	7706077ce2016ed7
+1993	2241	1676227277153006145	AquariumLib/CMakeFiles/AquariumLib.dir/Fish.cpp.o	ce762508a796a7df
+5	1199	1675974153786786240	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	c8e96ab0a51da5f8
+8	1497	1676227276405416459	AquariumLib/CMakeFiles/AquariumLib.dir/cmake_pch_arm64.hxx.pch	26904156a16eb6f1
+9	1218	1676075287084562101	Tests/CMakeFiles/Tests_run.dir/cmake_pch_arm64.hxx.pch	9a145f060c837bcb
+722	1211	1676081769985915123	Tests/CMakeFiles/Tests_run.dir/FishBetaTest.cpp.o	75a253a5c2bfecf1
+1220	1747	1676075287618527088	Tests/CMakeFiles/Tests_run.dir/EmptyTest.cpp.o	ce6f9b9d84b855a9
+0	9	0	clean	3c8e6cc385ee00ba
+717	1724	1676081770492556340	Tests/CMakeFiles/Tests_run.dir/AquariumTest.cpp.o	dedc9702221e5e8b
+1930	2217	1676227277128019900	AquariumLib/CMakeFiles/AquariumLib.dir/MagiKarp.cpp.o	6aa9dcd5f1d4c7ef
+2035	2259	1676227277171500934	AquariumLib/CMakeFiles/AquariumLib.dir/DecorCastle.cpp.o	ac34de370a0280ba
+10	792	1676080452217192074	Tests/CMakeFiles/Tests_run.dir/ItemTest.cpp.o	81ae80dd78f4a713
